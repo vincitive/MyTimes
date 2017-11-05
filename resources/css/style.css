@@ -1,0 +1,79 @@
+.header {
+	display: flex;
+	border-bottom: 1px solid black;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0px 10px;
+}
+
+.mytlogo {
+	display: flex;
+	align-items: center;
+	margin: 10px 0px;
+}
+
+.mytlogo p {
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: bold;
+	color: mediumaquamarine;
+	padding-left: 10px;
+}
+
+.headernav {
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.headernav ul li {
+	display: inline-block;
+	padding: 0px 10px;
+}
+
+.maincontent {
+	display: flex;
+}
+
+.column.large {
+	display: flex;
+	flex-direction: column;
+	width: 630px;
+	border: 1px solid black;
+}
+
+.column.medium {
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	border: 1px solid black;
+}
+
+.column.small {
+	display: flex;
+	flex-direction: column;
+	width: 240px;
+	border: 1px solid black;
+}
+
+.smalltitle {
+	display: flex;
+	border: 1px solid black;
+}
+
+.smalltitle p {
+
+}
+
+.subparagraph1 p {
+
+}
+
+.boldtitle1 h2 {
+
+}
+
+.largecontainer1.largecontainer2 {
+	display: flex;
+	border: 2px solid black;
+}
