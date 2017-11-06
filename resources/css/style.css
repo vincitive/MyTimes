@@ -36,11 +36,17 @@
 	display: flex;
 }
 
+.column {
+	display: flex;
+	justify-content: center;
+}
+
 .column .large {
 	display: flex;
 	flex-direction: column;
 	width: 630px;
 	border: 1px solid black;
+	margin: 0px 25px;
 }
 
 .column .medium {
@@ -48,6 +54,7 @@
 	flex-direction: column;
 	width: 300px;
 	border: 1px solid black;
+	margin: 0px 25px;
 }
 
 .column .small {
@@ -55,6 +62,7 @@
 	flex-direction: column;
 	width: 240px;
 	border: 1px solid black;
+	margin: 0px 25px;
 }
 
 .smalltitle {
@@ -65,15 +73,15 @@
 	border: 1px solid black;
 }
 
-.subparagraph1 p {
+.subparagraph p {
 
 }
 
-.boldtitle1 h2 {
+.boldtitle h2 {
 
 }
 
-.largecontainer1 , .largecontainer2 {
+.largecontainer {
 	display: flex;
 	display: inline-block;
 	border: 1px solid black;
