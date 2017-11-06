@@ -10,6 +10,7 @@
 	display: flex;
 	align-items: center;
 	margin: 10px 0px;
+	border: 1px solid black;
 }
 
 .mytlogo p {
@@ -35,21 +36,21 @@
 	display: flex;
 }
 
-.column.large {
+.column .large {
 	display: flex;
 	flex-direction: column;
 	width: 630px;
 	border: 1px solid black;
 }
 
-.column.medium {
+.column .medium {
 	display: flex;
 	flex-direction: column;
 	width: 300px;
 	border: 1px solid black;
 }
 
-.column.small {
+.column .small {
 	display: flex;
 	flex-direction: column;
 	width: 240px;
@@ -58,11 +59,10 @@
 
 .smalltitle {
 	display: flex;
-	border: 1px solid black;
 }
 
 .smalltitle p {
-
+	border: 1px solid black;
 }
 
 .subparagraph1 p {
@@ -73,7 +73,8 @@
 
 }
 
-.largecontainer1.largecontainer2 {
+.largecontainer1 , .largecontainer2 {
 	display: flex;
-	border: 2px solid black;
+	display: inline-block;
+	border: 1px solid black;
 }
